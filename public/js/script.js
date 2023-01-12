@@ -6,7 +6,8 @@ $(document).ready(function() {
 		const message = $('#chatbot-input').val();
 		$.ajax({
 			type: 'POST',
-			url: 'http://localhost:3000/chatbot',
+			// url: 'http://localhost:3000/chatbot',
+			url: 'https://comp4537-lab2-monb.onrender.com/chatbot',
 			data: {
 				message: message
 			},

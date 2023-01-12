@@ -16,7 +16,7 @@ app.use('/js', express.static('public/js'));
 // Get and Post Requests
 
 // app.get('/', function (req, res) {
-//     res.sendFile(__dirname + "/html/index.html");
+//     res.sendFile(__dirname + "/public/html/index.html");
 // })
 
 app.post('/chatbot', (req, res) => {
