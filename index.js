@@ -1,3 +1,4 @@
+// Dependencies
 const express = require('express');
 const bodyParser = require('body-parser');
 
@@ -13,11 +14,7 @@ app.use('/css', express.static('public/css'));
 app.use('/js', express.static('public/js'));
 
 
-// Get and Post Requests
-
-// app.get('/', function (req, res) {
-//     res.sendFile(__dirname + "/public/html/index.html");
-// })
+// Post Requests
 
 app.post('/chatbot', (req, res) => {
     // Process message and get response
@@ -45,6 +42,7 @@ app.post('/chatbot', (req, res) => {
 
 
 
+// Run server
 const PORT = 3000 || process.env.PORT;
 app.listen(PORT, () => {
 	console.log(`Server is running on port ${PORT}`);
