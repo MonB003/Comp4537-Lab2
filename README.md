@@ -1,8 +1,8 @@
 # COMP 4537 Lab 2
 > This is a Node.js app for a Chatbot. The user can enter a number in the text field and the chatbot will display a fact about that number.
 
-[Hosted Netlify App (frontend)](https://comp4537-lab2-monb.netlify.app/html/index.html)
-[Hosted Render App (backend)](https://comp4537-lab2-monb.onrender.com/index.html/)
+- [Hosted Netlify App (frontend)](https://comp4537-lab2-monb.netlify.app/html/index.html)
+- [Hosted Render App (backend)](https://comp4537-lab2-monb.onrender.com/index.html/)
 
 <br>
 
